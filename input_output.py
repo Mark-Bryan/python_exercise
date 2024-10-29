@@ -4,13 +4,10 @@ name = input("Please enter your name: ")
 print("Hello", name, '!')
 
 
-
-
-
 #2 arithmetics
 def numbers():
-    num1 = int(input("Enter the first number: "))
-    num2 = int(input("Enter the second number: "))
+    num1 = int(input("Enter the first number(Only integers please): "))
+    num2 = int(input("Enter the second number(Only integers please): "))
 
     addition = num1 + num2
     difference = num1 - num2
@@ -33,7 +30,7 @@ age_calculator()
 #4 reverse
 def reverse_string(s):
     return s[::1]
-print(reverse_string("AKIKA"))
+print(reverse_string("LA MASIA"))
 
 #5 Color
 def favorite_color():
@@ -72,80 +69,8 @@ else:
 π = 3.14159
 radius = int(input("Enter the radius of the circle: "))
 areaOfCircle = π * radius ** 2
-print("The ara of the circle is : ", areaOfCircle)
+print("The area of the circle is : ", areaOfCircle)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def is_even(num):
-#     return num % 2 == 0
-
-# print(is_even(4))  
-# print(is_even(7))  
-
-# def factorial(n):
-#     if n < 0:
-#         raise ValueError("Input must be a positive integer.")
-#     elif n == 0 or n == 1:
-#         return 1
-#     else:
-#         result = 1
-#         for i in range(2, n + 1):
-#             result *= i
-#         return result
-
-
-# print(factorial(5))  
-
-
-# 
-# def find_max(lst):
-#     if not lst:
-#         raise ValueError("The list is empty.")
-    
-#     max_value = lst[0]  # Start by assuming the first element is the largest
-#     for num in lst:
-#         if num > max_value:
-#             max_value = num
-#     return max_value
-
-# # Example usage:
-# numbers = [3, 5, 7, 2, 8, 10]
-# print(find_max(numbers))  # Output: 10
-
-
-# def reverse_string(s):
-#     return s[::-1]
-
-# print(reverse_string("hello")) 
 
 
 

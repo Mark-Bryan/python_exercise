@@ -32,13 +32,14 @@ print(min_of_three(9676797, 89599676, 5234678))
 
 #6
 def capitalize_words(sentence):
+ return sentence.title()
+print(capitalize_words('hi there ! i am a software developer'))
+ 
    
 
 
-
-
 #7
- def sum_of_squares(n):
+def sum_of_squares(n):
     return n 
    
 
